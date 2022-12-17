@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Dosis&family=La+Belle+Aurore&display=swap');
+
+
+
+
+
+body {
+    margin: 0px;
+
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #162D59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.left-login > h1 {
+    color: #0FC2C0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30pt;
+    margin: 0px;
+    padding: 0px 0px 10px 15px;
+    text-align: center;
+   
+}
+
+.left-login > h2 {
+    color: #0FC2C0;
+    font-size: 20pt;
+    text-align: left;
+    margin: 0;
+    padding: 20px 0px 0px 20px;
+    
+   
+}
+
+.left-login > img {
+    width: 55vw;
+    height: 50vh;
+    box-shadow: rgb(54, 52, 52);
+    
+
+    
+}
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #0b128c75;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.288);
+    
+
+}
+
+.card-login > img {
+    width: 80%;
+    height: 30%;
+    padding: 15px;
+    
+
+}
+
+.textfield {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #0F50A6;
+    font-size: 12pt;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.288);
+}
+
+.textfield > label {
+    color: white;
+    margin-bottom: 10px;
+    
+    
+}
+
+.textfield > input::placeholder {
+    color: rgb(128, 128, 128);
+}
+
+.btn-login {
+    width: 80%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    background-color: #0FC2C0;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 0px 50px #31A5D0;
+    
+}
+.btn-login:hover {
+    background-color: #0CF25D;
+    color: #034159;
+    box-shadow: 0px 10px 40px #0CF25D;
+    transition: 0.5s;
+}
+
+
